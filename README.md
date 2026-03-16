@@ -6,9 +6,9 @@
 
 ## DATA GATHERING & TRANSFORMATION
 The [Raw Data](./Attendance-Sheet-2022-2023.xlsx) is an attendance sheet for 3 months (April - June 2022). It includes **_employee codes_**, _**names**_, and their daily attendance status (Present, Work From Home, Sick Leave,...) recorded in a wide matrix format.
-- Unpivoting: Using Excel's Power Query to transform date columns into rows. This changes the data from a wide format to a long list (Employee - Date - Status).
+- Unpivoting: transform date columns into rows. This changes the data from a wide format to a long list (Employee - Date - Status).
 - Adding a "Day of Week" column to help analyze working patterns on specific days like Mondays and Fridays.
-
+- 
 ## DASHBOARDING
 - KPI Cards (Total Employees, Total Working Days, % Presence, % WFH , % Sick Leave): These provide an immediate "Health Check" of the company. HR can see at a glance if the overall attendance is stable or if there are unusual spikes in absences.
 - Presence and Work From Home (WFH) Trend: This is an important insight that HR care a lot. By looking at the ratio, we can see that Friday (12.46%) has the highest remote work rate, confirming the need for flexible Friday policies.
