@@ -1,10 +1,18 @@
-# HR ANALYTICS PROJECT
+# DATA PORTFOLIO: HR ANALYTICS PROJECT
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/trungbui011/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="mailto:ductrung3300754@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+</p>
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;In this project, I utilized **Excel Power Query** and **Power BI** to process and transform raw attendance data into actionable insights. This project was developed based on specific requirements from an HR professional to streamline the monitoring of employee attendance and work-from-home patterns.
 
-&nbsp;&nbsp;&nbsp;&nbsp; **_You can take a look at my LinkedIn:_** [Trung Bùi](https://www.linkedin.com/in/trungbui011/)
-
-&nbsp;&nbsp;&nbsp;&nbsp;The [Raw Data](./Attendance-Sheet-2022-2023.xlsx) includes attendance sheets for 3 months (April - June 2022). Each month is organized into its own worksheet, with the final sheet serving as the Attendance Key. It includes **_Employee Codes_**, _**Names**_, and their daily Attendance Status (Present, Work From Home, Sick Leave,...) recorded in a wide matrix format.
+&nbsp;&nbsp;&nbsp;&nbsp;The [**Raw Data**](./Attendance-Sheet-2022-2023.xlsx) includes attendance sheets for 3 months (April - June 2022). Each month is organized into its own worksheet, with the final sheet serving as the Attendance Key. It includes **_Employee Codes_**, _**Names**_, and their daily Attendance Status (Present, Work From Home, Sick Leave,...) recorded in a wide matrix format.
 
 ![](Original%20Table.JPG)
 &nbsp;&nbsp;&nbsp;&nbsp;In case you don't know exactly what P, WFH, SL... mean, you can find the full definitions in the **Attendance Key** table below.
@@ -18,9 +26,10 @@
 ## DATA GATHERING & TRANSFORMATION
 - Unpivoting: transform date columns into rows. This changes the data from a wide format to a long list (Employee - Date - Status).
 - I also Added a "Day of Week" column to help analyze working patterns on specific days like Mondays or Fridays.
-- You can download the cleaned data [here](./HR_Analytics_Cleaned.xlsx)
 
 ![](Cleaned_Data.JPG)
+
+**You can download the cleaned data** [**here**](./HR_Analytics_Cleaned.xlsx)
 
 ## DASHBOARDING
 - **KPI Cards** (Total Employees, Total Working Days, % Presence, % WFH, % Sick Leave): These metrics allow HR to monitor attendance on a regular basis with high flexibility.
@@ -29,7 +38,7 @@
 
 ![](HR-Dashboard.JPG)
 
-In case you want to see every detail, you can download the full **Power BI** dashboard [here](HR-Analysis.pbix).
+In case you want to see every detail, you can download the full **Power BI** dashboard [**here**](HR-Analysis.pbix).
 
 ## RECOMMENDATIONS
 - Optimizing Hybrid Work Policy: Since Friday has the highest WFH rate (12.46%), HR should formalize a "Flexible Friday" policy. This ensures employees feel supported while maintaining office operations with a leaner onsite team.
